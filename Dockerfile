@@ -1,4 +1,4 @@
-FROM golang:1.21.6-alpine3.18 AS build
+FROM golang:1.21-alpine3.18
 
 RUN adduser --disabled-password --home /app -u 10001 app
 
